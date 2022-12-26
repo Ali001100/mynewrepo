@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+background-image: url('image/order_bg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 10px;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 12px 0;
+}
+.input-box{
+   margin-bottom: 15px ;
+    width:calc(100% /2- 20px);
+
+}
+.input-box input {
+    height: 28px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    
+}
+.button{
+    height: 45px;
+    margin: 45px 0;
+}
+.button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color:#fff;
+    background: #e4b472;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.button input:hover{
+    background: #8f7044;
+}
+@media(max-width:584px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+

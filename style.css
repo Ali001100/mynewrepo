@@ -1,0 +1,215 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(image/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headerbar {
+    margin-top: 30px;
+}
+
+.login {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    transform: translate(-20%, -30%);
+    width: 350px;
+    height: 630px;
+    border: 3px solid #fc0a0a;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    text-align: center;
+
+}
+
+.login:hover {
+
+    box-shadow: 3bx 3px 50 px #63dbff;
+}
+
+.login-box {
+    border: 3px solid rgb(247, 13, 13);
+    position: absolute;
+    width: 390px;
+    top: 13%;
+    left: 4%;
+    height: 519px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+}
+
+.login-box:hover {
+
+    box-shadow: 3bx 3px 50 px #63dbff;
+}
+
+.loging input {
+    width: 75%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+
+}
+
+.loging:hover {
+    background: #63dbff;
+    color: rgb(237, 7, 7);
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0%;
+    color: rgb(254, 254, 255);
+}
+
+.input-num input {
+    padding: 10px 0;
+    width: 75%;
+    position: relative;
+    margin: 5px 0;
+    transition: 0.5s ease;
+
+}
+
+.input-num input {
+
+    border-bottom: 5px solid #63dbff;
+    border-radius: 10px;
+}
+
+.input-Ful input {
+
+    width: 75%;
+    padding: 10px 0;
+
+    position: relative;
+    margin: 5px 0;
+    transition: 0.5s ease;
+
+
+}
+
+.input-Ful input {
+
+    border-bottom: 5px solid #63dbff;
+    border-radius: 10px;
+}
+
+.username input {
+    width: 75%;
+    padding: 10px 0;
+    transition: 0.5s ease;
+
+
+}
+
+.username input {
+
+    border-bottom: 5px solid #63dbff;
+    border-radius: 10px;
+}
+
+.password input {
+    width: 75%;
+    padding: 10px 0;
+    transition: 0.5s ease;
+
+
+}
+
+.password input {
+
+    border-bottom: 5px solid #63dbff;
+    border-radius: 10px;
+}
+
+.sign-up input {
+    width: 75%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: #fff;
+
+}
+
+.sign-up:hover {
+    background: #63dbff;
+    color: #fff;
+
+}
+
+.Reset input {
+    width: 75%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: #fff;
+
+}
+
+.Reset:hover {
+    background: #63dbff;
+    color: #fff;
+}
+
+.log input {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-20%, -30%);
+    width: 320px;
+    height: 540;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    text-align: center;
+
+
+
+}
+
+.log:hover {
+
+    box-shadow: 3bx 3px 50 px #63dbff;
+}
+
+.p {
+    color: #fff;
+}
+
+.log-in {
+    color: #fff;
+}
+
+.rightside {
+    float: right;
+
+}
+
+.leftside {
+    float: left;
+}

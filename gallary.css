@@ -1,0 +1,18 @@
+.subheading {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 100px;
+    display: block;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    color: #c8a97e;
+    line-height: 1;
+    margin-top: 0;
+    z-index: -1;
+    font-family: 'Courier New', Courier;
+    text-align: center;
+    margin-top: 50px;
+}
